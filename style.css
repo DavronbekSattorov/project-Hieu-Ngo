@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* HEADER */
+
+header {
+    background-image: url('./resources/MicrosoftTeams-image\ \(1\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.header-container {
+    width: 95%;
+    margin: auto;
+    padding-top: 33%;
+}
+
+.zapisz {
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(250, 250, 250, 0.4);
+    width: 30%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.header-text {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.text {
+    width: 40%;
+}
+
+/*  SECTION O NAS  */ 
+
+.o-nas {
+    height: 68vh;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 82%;
+    margin: auto;
+    list-style-type: none;
+    padding: 30px 50px;
+    border-bottom: 2px solid black;
+}
+
+
+
+.services {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+
+}
+
+.service {
+    width: 30%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.service-img {
+    margin-bottom: 20px;
+}
+
+.special {
+    margin-bottom: 50px;
+}
+
+.service-text {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.service-button {
+    margin-bottom: 30px;
+    width: 180px;
+    height: 60px;
+    background-color: aqua;
+    border: 1px solid rgb(78, 78, 78);
+}
+
+/* TYTUL */
+
+.tytul-text {
+    width: 90%;
+    margin: auto;
+}
+
+.tytul-text h1 {
+    margin-bottom: 40px;
+}
+
+.tytul-text p {
+    margin-bottom: 60px;
+}
+
+.tytul-image {
+    background-image: url('./resources/MicrosoftTeams-image\ \(6\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center center;
+    width: 100%;
+    height: 45vh;
+    text-align: end;
+    margin-bottom: 60px;
+}
+
+.tytul-image-article {
+    width: 30%;
+    margin-left: 60%;
+    padding-top: 80px;
+}
+
+.tytul-image-article h2 {
+    color: rgb(253, 253, 253);
+    margin-bottom: 30px;
+    
+}
+
+.tytul-image-article p {
+    width: 60%;
+    margin-left: 40%;
+    color: rgb(17, 163, 163);
+    font-size: 20px;
+}
+
+/* TEGO */
+
+.tego-info {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.tego-info-img {
+    width: 40%;
+
+}
+
+.tego-info-img img {
+    width: 60%;
+
+}
+
+.tego-info-text {
+    width: 60%;
+}
+
+.tego-info-text h3 {
+   margin-bottom: 40px;
+}
+
+.tego-info-text p {
+   width: 80%;
+ }
+
+ /* PARAG */
+
+ .parag-container {
+    background-image: url('./resources/MicrosoftTeams-image\ \(2\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 100vh;
+ }
+
+ .parag {
+     width: 90%;
+     margin: auto;
+     padding-left: 30%;
+ }
+
+ .parag-text {
+    width: 30%;
+    margin: auto;
+    text-align: end;
+    padding-top: 25%;
+    
+}
+
+.parag-text h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.parag-text p {
+    width: 60%;
+    color: rgb(17, 163, 163);
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+
+
+ /* FOOTER */
+
+ footer {
+     width: 98.5%;
+     margin: auto;
+     height: 55vh;
+     background-color: rgb(47, 47, 47);
+     border-top: 5px  solid rgb(195, 189, 189);
+ }
+
+ footer .links {
+     width: 90%;
+     border-bottom: none;
+     padding: 50px 0;
+     color: white;
+ }
+
+ .footer-text {
+     width: 90%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 80px;
+     margin-bottom: 80px;
+     color: rgb(17, 163, 163);
+ }
+
+ .footer-text p {
+    width: 25%;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 50px;
+    color: white;
+}
